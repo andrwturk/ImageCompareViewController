@@ -17,7 +17,8 @@ License and Author
 ==================
 
 Author: Andrew Turkin https://twitter.com/andrwturk
-        Vlad Moroz http://vladmoroz.com/
+
+Image design and original idea by Vlad Moroz http://vladmoroz.com/
 
 Copyright 2015 Squareheart
 
