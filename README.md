@@ -1,7 +1,7 @@
 # ImageCompareViewController
 
 ImageCompareViewController gives you beautiful slide effect for viewing your images. It's fully written in Swift.
-
+![Screenshot](https://raw.githubusercontent.com/AndrewTurkin/ImageCompareViewController/master/ImageCompareViewController/ImageCompareViewController/screenshot0.png)
 ![Screenshot](https://raw.githubusercontent.com/AndrewTurkin/ImageCompareViewController/master/ImageCompareViewController/ImageCompareViewController/screenshot1.gif)
 
 Usage
