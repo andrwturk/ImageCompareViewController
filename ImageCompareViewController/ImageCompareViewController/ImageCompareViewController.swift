@@ -11,10 +11,11 @@ import UIKit
 class ImageCompareViewController: UIViewController, UIScrollViewDelegate {
     
     var images = ["carbon.jpg", "classique.jpg", "gold.jpg", "minimal.jpg"]
+    var delimeterColor:UIColor = UIColor.redColor()
+    
     
     var backgroundView:UIImageView!
     var foregroundView:CompareView!
-    
     var backgroundScrollView:UIScrollView!
     var scrollView:UIScrollView!
 
@@ -38,6 +39,7 @@ class ImageCompareViewController: UIViewController, UIScrollViewDelegate {
         foregroundView = CompareView(frame:view.bounds)
         backgroundScrollView.addSubview(foregroundView)
         foregroundView.image = UIImage(named: images[1])
+        foregroundView.delimeterColor = delimeterColor
         
         scrollView = UIScrollView(frame: view.bounds)
         backgroundScrollView.addSubview(scrollView)

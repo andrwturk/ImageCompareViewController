@@ -13,6 +13,7 @@ class CompareView: UIView {
     var leftOffset:CGFloat = 0.0 
     var rightOffset:CGFloat = 0.0
     var image:UIImage?
+    var delimeterColor:UIColor!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -40,7 +41,7 @@ class CompareView: UIView {
                 if let imageResult = UIImage(CGImage: imageRef, scale: anImage.scale, orientation: anImage.imageOrientation) {
                     imageResult.drawInRect(offsetRect)
                     let ctx = UIGraphicsGetCurrentContext()
-                    CGContextSetStrokeColorWithColor(ctx, UIColor.redColor().CGColor)
+                    CGContextSetStrokeColorWithColor(ctx, delimeterColor.CGColor)
                     
                     if rightOffset != 0 {
                         CGContextMoveToPoint(ctx, offsetRect.size.width, 0)
